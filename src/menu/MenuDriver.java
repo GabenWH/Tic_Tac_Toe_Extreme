@@ -40,11 +40,11 @@ implements PackageControlObject
     // kicks off the method
     public void init()
     {
-    	menuBack = makeImage(menuBack, "/../Menu/menu.png");
-    	backScreen = makeImage(backScreen,"/../Menu/menu.png");
-    	startIdle = makeImage(startIdle,"/../Menu/templetidle.png");
-    	startOver = makeImage(startOver,"/../Menu/templetover.png");
-    	startClicked= makeImage(startClicked,"/../Menu/templetclicked.png");
+    	menuBack = makeImage(menuBack, "Menu/menu.png");
+    	backScreen = makeImage(backScreen,"Menu/menu.png");
+    	startIdle = makeImage(startIdle,"Menu/templetidle.png");
+    	startOver = makeImage(startOver,"Menu/templetover.png");
+    	startClicked= makeImage(startClicked,"Menu/templetclicked.png");
         MainMenu = new Screen(menuBack,true);
         GameScreen= new Screen(backScreen,false);
         NamedBooleanButton startButton= new NamedBooleanButton(300,250,100,20,startIdle,startOver,startClicked);

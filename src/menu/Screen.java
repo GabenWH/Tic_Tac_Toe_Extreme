@@ -53,7 +53,7 @@ public class Screen implements Renderable
     //sets if it should bee shown on screen
     public void onscreen(boolean on){
         menu =Menu.getInstance();
-        menu.getScreens().set(pos,on);
+        //menu.getScreens().set(pos,on);
     }
     public void addClickable(Clickable lol){
     	//System.out.println("Added");
